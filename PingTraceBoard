@@ -1,0 +1,22 @@
+
+---
+
+**PingTraceBoard**  
+**Description:**  
+Tracks latency and reachability of endpoints, visualizing results in a live, trace-style board.
+
+```markdown
+# PingTraceBoard - Endpoint Reachability Monitor
+
+PingTraceBoard watches API or service targets and highlights ping delays, drops, and recovery patterns in real time.
+
+## Features
+- Live ping tracker  
+- Failure/recovery visualization  
+- Output to JSON/CSV
+
+## Usage
+```bash
+git clone https://github.com/your-username/PingTraceBoard.git
+cd PingTraceBoard
+python monitor.py
